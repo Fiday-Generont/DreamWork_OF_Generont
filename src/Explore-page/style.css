@@ -135,6 +135,7 @@
     position: relative;
     box-shadow: inset 0 -120px 90px -90px rgba(0, 0, 0, 0.9);
     flex-shrink: 0;
+    overflow: hidden;
 }
 
 .game-img1 img{
@@ -203,6 +204,7 @@
     position: relative;
     box-shadow: inset 0 -120px 90px -90px rgba(0, 0, 0, 0.9);
     flex-shrink: 0;
+    overflow: hidden;
 }
 
 .game-img2 img{
@@ -404,7 +406,7 @@
     height: 208px;
     position: relative;
     box-shadow: inset 0 -120px 90px -90px rgba(0, 0, 0, 0.9);
-    
+    overflow: hidden;
     flex-shrink: 0;
 }
 
