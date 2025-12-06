@@ -51,6 +51,20 @@
     letter-spacing: 1px;
     
 }
+.hover-btn:hover{
+    border: 1px solid white;
+    font-size: 11px;
+    font-weight: 500;
+    width: 179px;
+    height:38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 12px; */
+    letter-spacing: 1px;
+    background-color: white;
+    color: #052c6f;
+}
 
 .main-img2{
     background-image: url("https://www.dreamworks.com/storage/cms-uploads/Gabby_GetReadyToParty.jpg");
@@ -97,21 +111,22 @@
 /* Game1 */
 .game1{
     padding: 10px 20px;
-    margin: 0px 327px;
+    margin: 0 auto;
+    width: 1440px;
 }
 .game1 h1{
     padding: 40px 0px 10px;
     font-size: 23px;
     color: #052c6f;
     font-weight: 700;
-    padding-left: 134px;
     
 }
 .img-game{
     display: flex;
     gap: 10px;
     justify-content: center;
-    
+    flex-shrink: 0;
+    overflow: hidden;
 }
 .game-img1{
     width: 365px;
@@ -119,13 +134,15 @@
     height: 208px;
     position: relative;
     box-shadow: inset 0 -120px 90px -90px rgba(0, 0, 0, 0.9);
-    overflow: hidden;
+    flex-shrink: 0;
 }
 
 .game-img1 img{
     position: absolute;
     z-index: -1;
     transition: all 0.1s ease-in-out;
+    object-fit: cover;
+    
 }
 .game-img1 h2{
     color: rgba(255, 255, 255, 0.944);
@@ -157,29 +174,27 @@
 }
 .game-img1:hover .text-after-blur{
     opacity: 1;
-
 }
 
 /* PC & Console Games Section */
 /* Game2 */
 .game2{
     padding: 10px 20px;
-    margin: 0px 327px;
-
+    margin: 0 auto;
+    width: 1440px;
 }
 .game2 h1{
     padding: 40px 0px 10px;
     font-size: 23px;
     color: #052c6f;
     font-weight: 700;
-    padding-left: 134px;
 }
 .img-game2{
     display: flex;
     gap: 10px;
     justify-content: center;
-    
-    
+    flex-shrink: 0;
+    overflow: hidden;
 }
 .game-img2{
     width: 365px;
@@ -187,7 +202,7 @@
     height: 208px;
     position: relative;
     box-shadow: inset 0 -120px 90px -90px rgba(0, 0, 0, 0.9);
-    overflow: hidden;
+    flex-shrink: 0;
 }
 
 .game-img2 img{
@@ -195,6 +210,7 @@
     position: absolute;
     z-index: -1;
     transition: all 0.1s ease-in-out;
+
 }
 
 .game-img2 h2{
@@ -232,21 +248,20 @@
 /* Game3 */
 .game3{
     padding: 10px 20px;
-    margin: 0px 327px;
-
+    margin: 0 auto;
+    width: 1440px;
 }
 .game3 h1{
     padding: 40px 0px 10px;
     font-size: 23px;
     color: #052c6f;
     font-weight: 700;
-    padding-left: 134px;
+    
 }
 .img-game-3{
     display: flex;
-    gap: 138px;
     justify-content: center;
-    
+    gap: 20px;
 }
 .game-img3{
      width: 264px;
@@ -299,21 +314,20 @@
 /* Game4 */
 .game4{
     padding: 10px 20px;
-    margin: 0px 327px;
-
+    margin: 0 auto;
+    width: 1440px;
 }
 .game4 h1{
     padding: 40px 0px 10px;
     font-size: 23px;
     color: #052c6f;
     font-weight: 700;
-    padding-left: 134px;
 }
 .img-game-4{
     display: flex;
     gap: 20px;
     justify-content: start;
-    padding-left: 134px;
+    
 }
 .game-img4{
     position: relative;
@@ -368,16 +382,8 @@
 /* Game5 */
 .game5{
     padding: 10px 20px;
-    margin: 0px 327px;
-    
-
-}
-
-/* PC & Console Games Section */
-/* Game5 */
-.game5{
-    padding: 10px 20px;
-    margin: 0px 327px;
+    margin: 0 auto;
+    width: 1440px;
 
 }
 .game5 h1{
@@ -385,13 +391,12 @@
     font-size: 23px;
     color: #052c6f;
     font-weight: 700;
-    padding-left: 134px;
 }
 .img-game5{
     display: flex;
     gap: 10px;
     justify-content: center;
-    
+    overflow: hidden;
 }
 .game-img5{
     width: 365px;
@@ -399,7 +404,8 @@
     height: 208px;
     position: relative;
     box-shadow: inset 0 -120px 90px -90px rgba(0, 0, 0, 0.9);
-    overflow: hidden;
+    
+    flex-shrink: 0;
 }
 
 .game-img5 img{
@@ -407,6 +413,7 @@
     position: absolute;
     z-index: -1;
     transition: all 0.1s ease-in-out;
+    
 }
 .game-img5 h2{
     position: absolute;
@@ -444,21 +451,20 @@
 /* Game6 */
 .game6{
     padding: 10px 20px;
-    margin: 0px 327px;
-
+    margin: 0 auto;
+    width: 1440px;
 }
 .game6 h1{
     padding: 40px 0px 10px;
     font-size: 23px;
     color: #052c6f;
     font-weight: 700;
-    padding-left: 39px;
+   
 }
 .img-game6{
     display: flex;
-    gap: 187px;
     justify-content: center;
-    
+    gap: 27px;
 }
 .game-img6{
     width: 329px;
@@ -466,6 +472,8 @@
     height: 189.86px;
     position: relative;
     box-shadow: inset 0 -120px 90px -90px rgba(0, 0, 0, 0.9);
+    /* overflow: hidden; */
+    
 }
 
 .game-img6 img{
@@ -486,16 +494,10 @@
 }
 /* PC & Console Games Section */
 /* Game6 */
-.game6{
-    
-    margin: 0px 327px;
-
-}
 .search h1{
     font-size: 23px;
     color: #052c6f;
     font-weight: 700;
-    padding-left: 134px;
 }
 .search {
     display: flex;
@@ -517,7 +519,6 @@
 
 .img-game6{
     display: flex;
-    gap: 183px;
     justify-content: center;
     
 }
@@ -528,6 +529,7 @@
     position: relative;
     box-shadow: inset 0 -120px 90px -90px rgba(0, 0, 0, 0.9);
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .game-img6 img{
@@ -535,6 +537,7 @@
     position: absolute;
     z-index: -1;
     transition: all 0.1s ease-in-out;
+
 }
 .game-img6 h2{
     position: absolute;
@@ -572,19 +575,19 @@
 /* Game7 */
 .game7{
     padding: 10px 20px;
-    margin: 35px 327px;
-
+    margin: 0 auto;
+    width:1440px ;
 }
 .game7 h1{
     padding: 40px 0px 10px;
     font-size: 23px;
     color: #052c6f;
     font-weight: 700;
-    padding-left: 39px;
+    
 }
 .img-game7{
     display: flex;
-    gap: 187px;
+    gap: 27px;
     justify-content: center;
     
 }
@@ -690,12 +693,13 @@
 /* Game8 */
 .game8{
     padding: 10px 10px;
-    margin: 10px 327px;
+    margin: 0 auto;
+    width: 1440px;
 
 }
 .img-game8{
     display: flex;
-    gap: 183px;
+    gap: 27px;
     justify-content: center;
     
 }
@@ -750,12 +754,13 @@
 /* Game9 */
 .game9{
     padding: 10px 20px;
-    margin: 35px 327px;
+    margin: 0 auto;
+    width: 1440px;
     
 }
 .img-game9{
     display: flex;
-    gap: 183px;
+    gap: 27px;
     justify-content: center;
     
 }
@@ -810,12 +815,12 @@
 /* Game10 */
 .game10{
     padding: 10px 20px;
-    margin: 35px 327px;
-    
+    margin: 0 auto;
+    width: 1440px;
 }
 .img-game10{
     display: flex;
-    gap: 183px;
+    gap: 27px;
     justify-content: center;
     
 }
@@ -869,12 +874,13 @@
 /* Game11 */
 .game11{
     padding: 10px 20px;
-    margin: 35px 327px;
+    margin: 0 auto;
+    width: 1440px;
     
 }
 .img-game11{
     display: flex;
-    gap: 183px;
+    gap: 27px;
     justify-content: center;
     
 }
@@ -928,12 +934,13 @@
 /* Game12 */
 .game12{
     padding: 10px 20px;
-    margin: 35px 327px;
+    margin: 0 auto;
+    width: 1440px;
     
 }
 .img-game12{
     display: flex;
-    gap: 183px;
+    gap: 27px;
     justify-content: center;
     
 }
@@ -987,12 +994,13 @@
 /* Game13 */
 .game13{
     padding: 10px 20px;
-    margin: 35px 327px;
+    margin: 0 auto;
+    width: 1440px;
     
 }
 .img-game13{
     display: flex;
-    gap: 183px;
+    gap: 27px;
     justify-content: center;
     
 }
@@ -1046,12 +1054,13 @@
 /* Game14 */
 .game14{
     padding: 10px 20px;
-    margin: 35px 327px;
+    margin: 0 auto;
+    width: 1440px;
     
 }
 .img-game14{
     display: flex;
-    gap: 183px;
+    gap: 27px;
     justify-content: center;
     
 }
@@ -1105,7 +1114,8 @@
 /* Game15 */
 .game15{
     padding: 10px 20px;
-    margin: 35px 327px;
+    margin: 0 auto;
+    width: 1440px;
 
 }
 .game15 h1{
@@ -1113,11 +1123,11 @@
     font-size: 23px;
     color: #052c6f;
     font-weight: 700;
-    padding-left: 39px;
+  
 }
 .img-game15{
     display: flex;
-    gap: 187px;
+    gap: 27px;
     justify-content: center;
     
 }
@@ -1223,12 +1233,13 @@
 /* Game16 */
 .game16{
     padding: 10px 20px;
-    margin: 35px 327px;
+    margin: 0 auto;
+    width: 1440px;
     
 }
 .img-game16{
     display: flex;
-    gap: 183px;
+    gap: 27px;
     justify-content: center;
     
 }
@@ -1282,12 +1293,13 @@
 /* Game17 */
 .game17{
     padding: 10px 20px;
-    margin: 35px 327px;
+    margin: 0 auto;
+    width: 1440px;
     
 }
 .img-game17{
     display: flex;
-    gap: 183px;
+    gap: 27px;
     justify-content: center;
     
 }
@@ -1341,12 +1353,13 @@
 /* Game18 */
 .game18{
     padding: 10px 20px;
-    margin: 35px 327px;
+    margin: 0 auto;
+    width: 1440px;
     
 }
 .img-game18{
     display: flex;
-    gap: 183px;
+    gap: 27px;
     justify-content: center;
     
 }
@@ -1400,12 +1413,13 @@
 /* Game19 */
 .game19{
     padding: 10px 20px;
-    margin: 35px 327px;
+    margin: 0 auto;
+    width: 1440px;
     
 }
 .img-game19{
     display: flex;
-    gap: 183px;
+    gap: 27px;
     justify-content: center;
     
 }
